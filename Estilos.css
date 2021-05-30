@@ -86,3 +86,9 @@ lib a{
    display: flex;justify-content: flex-end;
 
 }
+.pagina {
+
+display:flex;flex-direction: column;
+
+
+}
