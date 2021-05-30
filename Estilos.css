@@ -4,7 +4,7 @@ h1{
 }
 h2{
   
-   font-size: 40px;color: rgba(0, 0, 0, 0.507);font-family: 'Amatic SC', cursive;sans-serif;display: flex;justify-content: center;
+   font-size: 40px;color: rgba(0, 0, 0, 0.507);font-family: 'Amatic SC', cursive,sans-serif;display: flex;justify-content: center;
 }
 h3{
    font-family: 'Caveat', cursive;font-size: 25px;display: flex;justify-content: center;
@@ -28,6 +28,12 @@ a{
       display: inline-block;
       font-size: 20px;
       cursor: pointer;
+    }
+    .egg{
+       opacity: 0;
+      padding: 15px 32px;
+      font-size: 20px;
+      cursor:  no-drop;
     }
 *{
    box-sizing:border-box;
@@ -75,4 +81,8 @@ lib a{
 .Caja1{
    display: flex;
    justify-content: center;
+}
+.eg{
+   display: flex;justify-content: flex-end;
+
 }
